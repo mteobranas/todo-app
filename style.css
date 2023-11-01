@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#show {
+    display: block;
+}
+
+#hide {
+    display: none;
+}
+
+.nav {
+    background-color: red;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-sections {
+    display: flex;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-container {
+    width: 30vw;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.single-calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.calendar-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-date {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 32px;
+    border-right: 4px solid white;
+}
+
+.task-info {
+    height: 32px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-container {
+    width: 70vw;
+}
+
+.no-board {
+    height: calc(100vh - 60px);
+    display: flex;
+    border-right: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
